@@ -221,3 +221,93 @@ html, body {
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.benefity {
+    height: 100vh;
+    background-color: var(--color-light-grey);
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    padding-top: 6.5625rem;
+    padding-bottom: 6.5625rem;
+
+}
+
+.benefity__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2.3125rem;
+}
+
+.benefit__card {
+    padding-left: 2.1875rem;
+    padding-right: 2.1875rem;
+    background-color: var(--color-white);
+    display: flex;
+    height: 23.125rem;
+}
+
+.benefit__col1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.benefit__title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 2.25rem;
+    color: var(--color-black)
+}
+
+.benefit__desc {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--color-black);
+}
+
+.benefit__sep {
+    width: 20.4775rem;
+    max-height: .025rem;
+}
+
+.benefit__col2 {
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.benefit__img {
+    position: absolute;
+    left: 50px;
+    bottom: 2.375rem;
+    max-width: 24.1525rem;
+    max-height: 18.1875rem;
+    z-index: 1;
+}
+
+.benefit__bg {
+    position: absolute;
+    top: 50px;
+    width: 9.9375rem;
+    height: 9.9375rem;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    background-color: var(--color-redish);
+    border-radius: 41px;
+    opacity: 1;
+}
