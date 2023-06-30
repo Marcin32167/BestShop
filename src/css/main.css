@@ -76,3 +76,27 @@ html, body {
     color: var(--color-black);
     border-bottom: solid 4px var(--color-primary);
 }
+
+
+
+
+
+
+
+
+
+.intro {
+    background-image: url(../);
+}
+
+.intro__bg {}
+
+.intro__box {}
+
+.main_title {}
+
+.pmain {}
+
+.mbutton {}
+
+
