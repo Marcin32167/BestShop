@@ -11,6 +11,20 @@
 
 html, body {
     font-size: 16px;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* Page load - animation - on load */
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* Header - CSS */
@@ -326,4 +340,6 @@ html, body {
     height: 100%;
     border: 1px solid #E8E9ED;
 }
+
+/* Section pricing - CSS */
 
